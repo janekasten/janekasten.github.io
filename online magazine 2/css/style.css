@@ -1,0 +1,237 @@
+/* header */
+
+header {
+    width: 100%;
+    min-height: 1em;
+    max-height: 5em;
+    background-color: transparent;
+}
+
+
+/* Snippet fra Littlesnippets.net - http://littlesnippets.net/category/categories/Buttons/page/3/ */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+.snip1319 {
+    font-family: 'Raleway', Arial, sans-serif;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 5px;
+    color: rgb(251, 200, 171);
+    cursor: pointer;
+    padding: 0px 1px;
+    display: inline-block;
+    margin: 10px 86px;
+    text-transform: uppercase;
+    line-height: 2.7em;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.snip1319:after {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 100%;
+    border-radius: inherit;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.snip1319:hover:after,
+.snip1319.hover:after {
+    right: 0;
+}
+
+.but1 {
+    float: left;
+}
+
+.but2 {
+    float: right;
+}
+
+.but1,
+.but2 {
+    margin-top: 0px;
+}
+
+
+/* logo */
+
+#logo {
+    margin: 3px;
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    z-index: 0;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* skrift typer */
+
+p,
+h1,
+h2,
+h3 {
+    color: black;
+    font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+    line-height: 1, 5;
+    text-overflow: inherit;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.tekst {
+    color: black;
+    font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+
+/* forside */
+
+.tekstforside {
+    color: goldenrod;
+    font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+    padding-top: 1px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#forsidebillede {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+}
+
+#forside {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(85.46.0);
+    line-height: 2.4;
+    position: absolute;
+    margin-top: -59%;
+    margin-bottom: auto;
+}
+
+
+/*lidt om barcelona*/
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+    padding-top: 2px;
+    padding-left: 2px;
+}
+
+.flex-item2 {
+    background-color: whitesmoke;
+    width: 700px;
+    height: 300;
+    margin: 2px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.barcelona-box {
+    display: -webkit-flex;
+    display: flex;
+     -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    background-color: goldenrod;
+}
+
+.barcelona-item {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/*what to do*/
+
+
+/*interview*/
+
+.tekstinterview {
+    color: black;
+    font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+    padding-top: 1px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#interview {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(85.46.0);
+    line-height: 2.4;
+    position: absolute;
+    margin-top: -59%;
+    margin-bottom: auto;
+}
+
+#forsidebillede {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-size: cover;
+}
+
+
+/*kontakt*/
+
+#billede1 {
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    display: inline-block;
+}
+
+.artikel1 {
+    color: goldenrod;
+    font-family: 'Raleway', Arial, sans-serif;
+    padding-top: 1px;
+    padding-left: 20px;
+    text-overflow: inherit;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: inline-block;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+    padding-top: 1px;
+}
+
+.flex-item {
+    background-color: goldenrod;
+    width: 100%;
+    height: 100%;
+    margin: 1px;
+    display: inline-block;
+}
