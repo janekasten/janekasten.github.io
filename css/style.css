@@ -1,0 +1,301 @@
+  * {
+  box-sizing: border-box;
+ }
+ /* HEADER */
+ 
+ header {
+  width: 100%;
+  min-height: 1em;
+  max-height: 5em;
+  background-color: transparent;
+ }
+ /* Snippet fra Littlesnippets.net - http://littlesnippets.net/category/categories/Buttons/page/3/ */
+ 
+ @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+ .snip1319 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 3px;
+  color: rgb(251, 200, 171);
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px 1px;
+  margin: 10px 78px;
+  text-transform: uppercase;
+  line-height: 2.7em;
+  font-weight: 600;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+ }
+ 
+ .snip1319:after {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 100%;
+  border-radius: inherit;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+ }
+ 
+ .snip1319:hover:after,
+ .snip1319.hover:after {
+  right: 0;
+ }
+ 
+ .but1 {
+  float: left;
+ }
+ 
+ .but2 {
+  float: right;
+ }
+ 
+ .but1,
+ .but2 {
+  margin-top: 0px;
+ }
+ /* LOGO */
+ 
+ #logo {
+  margin: 3px;
+  margin-left: 4px;
+  margin-top: 0px;
+  margin-bottom: auto;
+  z-index: 0;
+  position: fixed;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ }
+ /* SKRIFT-TYPER */
+ 
+ p,
+ h1,
+ h2,
+ h3 {
+  color: black;
+  font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+  line-height: 1.2;
+ }
+ /* FRONTPAGE*/
+ 
+ #forsidebillede {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: cover;
+  clear:both;
+ }
+ 
+ #forside {
+  width: 600px;
+  height: 400px;
+  background-color: rgb(85.46.0);
+  line-height: 2.2;
+  position: absolute;
+  margin-top: -57%;
+  margin-bottom: auto;
+ }
+ 
+ #tekstforside {
+  color: goldenrod;
+  font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+  padding-top: 1px;
+  padding-left: 50px;
+  text-align: justify;
+ }
+ /*LIDT OM BARCELONA*/
+ 
+ .barcelona-box {
+  margin-left: 80px;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: auto;
+ }
+ 
+ .tekstbarcelona {
+  color: black;
+  font-family: 'Nunito', fantasy, sans-serif, , cursive, ;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 20px;
+  text-align: center;
+ }
+ /*WHAT TO DO*/
+ 
+ .floating-box1 {
+  float: left;
+  width: 308px;
+  height: 378px;
+  margin: 50px 50px;
+  border: 10px solid #929292;
+ }
+ 
+ .after-box1 {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+ }
+ 
+ .tekstwhattodo {
+  color: gray;
+  font-family: fantasy, 'Nunito', , sans-serif, , cursive, ;
+  margin-left: 50px;
+ }
+ 
+ .tekstwhattodo2 {
+  color: antiquewhite;
+  font-family: 'Nunito', fantasy, sans-serif, , cursive, ;
+  margin-left: 50px;
+ }
+ /*INTERVIEW*/
+ 
+ .background {
+  background-color: antiquewhite;
+ }
+ 
+ .box {
+  margin-top: 10px;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: auto;
+  background-color: ;
+ }
+ 
+ .flex-item2 {
+  background-color: antiquewhite;
+  width: 400px;
+  height: 500px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid;
+  overflow: hidden;
+  border-color: beige;
+ }
+ 
+ .boks1 {
+  width: 300px;
+  height: 220px;
+  margin: 0px 0px;
+  cursor: pointer;
+ }
+ 
+ .boks2 {
+  width: 400px;
+  height: 222px;
+  margin: 0px 0px;
+  cursor: pointer;
+ }
+ 
+ .boks3 {
+  width: 400px;
+  height: 220px;
+  margin: 0px 0px;
+  cursor: pointer;
+ }
+ 
+ .tekstkontakt {
+  color: black;
+  font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+  padding-top: 1px;
+  padding-left: 10px;
+  text-align: left;
+ }
+ 
+ .tekstkontakt2 {
+  color: black;
+  font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+  text-align: center;
+  margin-left: 30px;
+ }
+ 
+ .tekstinterview {
+  text-align: center;
+  color: gray;
+ }
+ /*KONTAKT*/
+ 
+ .floating-box {
+  float: left;
+  width: 308px;
+  height: 378px;
+  margin: 50px 50px;
+  border: 10px solid #929292;
+ }
+ 
+ .after-box {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+ }
+ 
+ .tekstkontakt {
+  color: black;
+  font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+  padding-top: 1px;
+  padding-left: 10px;
+  text-align: left;
+ }
+ 
+ .tekstkontakt2 {
+  color: black;
+  font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
+  text-align: center;
+  margin-left: 30px;
+ }
+ 
+ #tekst {
+  text-align: center;
+ }
+
+ /*tilpasning til mobil og Ipads*/
+ 
+ @media (max-width: 600px) {
+  nav {
+   width: 100%;
+  }
+  header {
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   height: 35px;
+   width: 100%;
+  }
+  #logo {
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   
+    z-index: 0;
+   width: 10%;
+
+  }
+  
+  nav {
+   margin-top: 75px;
+  }
+  nav li a {
+   float: none;
+  }
+  #content {
+   width: 100%;
+  }
+img {
+   width: 100%;
+   height: auto;
+  }
