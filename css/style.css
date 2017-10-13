@@ -8,8 +8,11 @@
   min-height: 1em;
   max-height: 5em;
   background-color: transparent;
- 
+  margin-bottom:fixed;
+
  }
+  
+ 
  /* Snippet fra Littlesnippets.net - http://littlesnippets.net/category/categories/Buttons/page/3/ */
  
  @import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
@@ -86,6 +89,7 @@
   color: black;
   font-family: 'Nunito', cursive, fantasy, Arial, sans-serif;
   line-height: 1.2;
+  
  }
  /* FRONTPAGE*/
  
@@ -266,11 +270,11 @@
 
  /*tilpasning til mobil og Ipads*/
  
- @media (max-width: 600px) {
+ @media (max-width: 640px) {
   nav {
    width: 100%;
   }
-  header {
+  #header {
    position: fixed;
    top: 0px;
    left: 0px;
@@ -281,8 +285,7 @@
    position: fixed;
    top: 0px;
    left: 0px;
-   
-    z-index: 0;
+   z-index: 0;
    width: 10%;
 
   }
