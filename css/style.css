@@ -253,7 +253,7 @@ ul.topnav li a.active {background-color: brown;}
 
 @media screen (min-width: 300px) and (max-width: 767px){
  nav{width: 100%;}
- 
+  padding: 14px 20px;
     ul.topnav li.right, 
  ul.topnav li {float:none;}
  
